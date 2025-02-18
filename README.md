@@ -7,5 +7,5 @@ Django based website with DRF REST API. Student entry system.
 ```
 pip install requirements.txt
 ```
-- make sure postgresql server is running on port 5432
+- We will use sqlite3 which comes default with django
 
