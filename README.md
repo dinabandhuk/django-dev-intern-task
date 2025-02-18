@@ -47,7 +47,15 @@ The application will be available at
 ```bash
 127.0.0.1:8025
 ```
-- admin/ - admin panel
+- admin panel
+```bash
+127.0.0.1:8025/admin/
+```
+
+- forms interface
+```bash
+127.0.0.1:8025/list/
+```
 
 
 ### API Endpoints
