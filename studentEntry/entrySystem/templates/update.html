@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Student</title>
+</head>
+<body>
+    <h2>Update Student</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="hidden" name="_method" value="PATCH">
+        <button type="submit">Update</button>
+    </form>
+    
+    {% if update_successful %}
+        <!-- Show the button when the update is successful -->
+        <p>Student updated successfully!</p>
+        <a href="{% url 'student_list' %}">
+            <button type="button">Go to Student List</button>
+        </a>
+    {% endif %}
+</body>
+</html>
