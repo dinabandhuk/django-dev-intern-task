@@ -1,5 +1,5 @@
-# django-dev-intern-task
-Django based website with DRF REST API. Student entry system.
+ django-dev-intern-task
+Django based website with Django Rest Framework REST API. Student entry system.
 
 ## Installation
 - Clone this repository
