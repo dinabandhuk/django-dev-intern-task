@@ -139,3 +139,5 @@ DELETE /api/students/1/
   "message": "Student with ID 1 deleted successfully."
 }
 ```
+
+That is all
